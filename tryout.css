@@ -1,0 +1,32 @@
+/*.nav-links ul li{
+    display: block;
+}
+.nav-links{
+    position: absolute;
+    background: #dcdcdc;
+    height: 100vh;
+    width: 20vw;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index:2;
+    transition: 1s;
+}
+.nav-links ul{
+    padding: 30px;
+
+}
+#barlogo{
+    display:block;
+    color:#fff;
+    margin-left: 40vh;
+    font-size: 22px;
+    cursor: pointer;
+}
+#xlogo{
+display:block;
+    color:#fff;
+
+    right:-200px;
+    font-size: 22px;
+    cursor: pointer;

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> DIXY Games</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Inconsolata:wght@500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()" id="xlogo"></i>
+                <ul>
+                    <li><a href="">OUR WORK</a></li>
+                    <li><a href="">CAREER</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()" id="barlogo"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>A Passionate Game Lab</h1>
+    <p>
+        Everyday we are thriving for the best.
+    </p>
+    <a href="" class="hero-btn">Join Us</a>
+</div>
+</section>
+
+<!-----------------------GAMES------------------------->
+<section class="games">
+    <h1>Here some of our top games</h1>
+    <div class="row">
+        <div class="games-col">
+            <video controls loop id="video">
+                <source src="images/gamevid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            <h3>Master Light 3D</h3>
+            <p>Build power poles and make your city light!</p>
+        </div>
+    
+    
+        <div class="games-col">
+            <video controls loop id="video">
+                <source src="images/popularvsnerd.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            <h3>Popular vs Nerd</h3>
+            <p>Who will win?
+                Nerd vs Popular</p>
+        </div>
+    
+    
+        <div class="games-col">
+            <video controls loop id="video">
+                <source src="images/popularvsnerd.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            <h3>GAME NAME</h3>
+            <p>Popular vs Nerd</p>
+        </div>
+    </div>
+</section>
+
+<!---Our Office----->
+<section class="ourwork">
+    <h1>Our Office</h1>
+    <p>Our small and interactive office has everything for an Game Developing environment.</p>
+    <div class="row">
+        <div class="ourwork-col">
+            <img src="images/office1.jpg">
+        </div>
+        <div class="ourwork-col">
+            <img src="images/office2.jpg">
+        </div>
+        <div class="ourwork-col">
+            <img src="images/office3.jpg">
+        </div>
+    </div>
+</section>
+
+<!-----------------Career Section------------->
+
+
+
+<section class="career">
+    <h1> We are hiring....! </h1>
+    <p>Would you like to lead the hyper-casual game industry with us ?</p>
+    <div class="row">
+        <div class="career-col">
+            <h3>Game Developer</h3>
+            <img src="images/gamedev.webp">
+            <div class="layer">
+                
+                <a href="">Join Us</a>
+            </div>
+        </div>
+        <div class="career-col">
+            <h3>2D Artist</h3>
+            <img src="images/gameart2d.jpg">
+            <div class="layer">
+                
+                <a href="">Join Us</a>
+            </div>
+        </div>
+        <div class="career-col">
+            <h3>3D Artist</h3>
+            <img src="images/gameart3d.jpg">
+            <div class="layer">
+                
+            <a href="">Join Us</a>
+            </div>
+        </div>
+        
+    
+    </div>
+
+</section>
+
+
+
+
+
+
+<!---menü kontrolü-->
+<script>
+    var navLinks=document.getElementById("navLinks")
+    function showMenu()
+    {
+        navLinks.style.right="0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+
+</html>
+
+<!---------------------CONTACT---------------------->
+<section class="contact">
+    <h1> If you have any questions, requests or ideas</h1>
+    <a href="" class="hero-btn-1"> Contact Us</a>
+</section>
+
+<!------------------------------FOOTER-------------------------->
+<footer>
+    <div class="footer-content">
+        <a id="google" href='https://play.google.com/store/apps/dev?id=6560768111065098201&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img id="google" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+
+
+        <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-facebook "></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+
+        </ul>
+        <ul class="socials">
+            <li><a href="#"> Terms Of Use</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+
+
+        </ul>
+
+    </div>  
+
+    <div class="footer-bottom">
+        <p>copyright &copy;2018 DIXY Games All Rights Reserved</p>
+    </div>
+</footer>
